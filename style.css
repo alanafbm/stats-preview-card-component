@@ -102,16 +102,6 @@
 	    }
 	    
 	    @media (max-width: 1024px) {
-	        .card {
-	            display: flex;
-	            flex-direction: column;
-	        }
-	        .card-content {
-	            padding-bottom: 60px;
-	        }
-	    }
-	    
-	    @media (max-width: 600px) {
 	        .card-image img {
 	            max-width: 300px;
 	            max-height: 400px;
@@ -162,6 +152,9 @@
 	            max-height: 247px;
 	            border-top-left-radius: 3%;
 	            border-top-right-radius: 3%;
+	            bottom: 0;
+	            position: absolute;
+	            bottom: 0;
 	        }
 	        .card-image img {
 	            max-width: 300px;
@@ -169,5 +162,9 @@
 	            order: 1;
 	            border-top-left-radius: 3%;
 	            border-top-right-radius: 3%;
+	        }
+	        .card-image {
+	            position: relative;
+	            margin-bottom: -5px;
 	        }
 	    }
