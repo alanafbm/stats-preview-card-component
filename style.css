@@ -112,34 +112,62 @@
 	    }
 	    
 	    @media (max-width: 600px) {
-	        .wrapper {
-	            min-width: 500px;
+	        .card-image img {
+	            max-width: 300px;
+	            max-height: 400px;
+	        }
+	        .card {
+	            display: flex;
+	            flex-direction: column;
+	            padding: 40px 10px 40px 25px
 	        }
 	        .card-content {
 	            max-width: 300px;
-	            max-height: 400px;
-	            padding: 50px 50px 25px 50px;
-	            margin-top: 50px;
+	            max-height: 600px;
+	            order: 2;
+	            padding: 20px 15px 25px 15px;
+	            text-align: center;
+	            border-bottom-left-radius: 3%;
+	            border-bottom-right-radius: 3%;
 	        }
 	        .card-title {
 	            font-size: 25px;
+	            margin: 0 auto;
+	            padding: 5px 5px 2px 5px;
 	        }
 	        .card-text {
-	            font-size: 12px;
+	            font-size: 15px;
+	            margin: 0 auto;
+	            text-align: center;
 	        }
 	        .cardstats {
-	            font-size: 10px;
+	            font-size: 15px;
+	            display: flex;
+	            flex-direction: column;
 	            margin: 0 auto;
+	            align-items: center;
+	        }
+	        .cardstats-1 {
+	            padding-bottom: 20px;
+	            padding-top: 10px;
+	        }
+	        .cardstats-2 {
+	            padding-bottom: 20px;
 	        }
 	        .uppercase {
-	            font-size: 6px;
+	            font-size: 10px;
 	        }
 	        .img-overlay {
 	            max-width: 300px;
 	            max-height: 247px;
+	            border-top-left-radius: 3%;
+	            border-top-right-radius: 3%;
 	        }
 	        .card-image img {
 	            max-width: 300px;
-	            max-height: 400px;
+	            max-height: 247px;
+	            order: 1;
+	            border-top-left-radius: 3%;
+	            border-top-right-radius: 3%;
 	        }
 	    }
