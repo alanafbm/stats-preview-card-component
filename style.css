@@ -12,7 +12,9 @@
 	    .attribution a {
 	        color: hsl(228, 45%, 44%);
 	    }
-	    
+	    body {
+			background-color: hsl(233, 47%, 7%);
+		}
 	    .wrapper {
 	        display: flex;
 	        background-color: hsl(233, 47%, 7%);
@@ -23,7 +25,7 @@
 	    
 	    .card {
 	        display: flex;
-	        padding: 100px;
+	        margin: 300px 150px;
 	    }
 	    
 	    .card-content {
@@ -57,7 +59,7 @@
 	        flex-direction: row;
 	        box-sizing: border-box;
 	        justify-content: space-between;
-	        margin: 70px 100px 0 50px;
+	        margin: 50px 100px 0 50px;
 	        font-family: 'Inter', sans-serif;
 	        color: white;
 	    }
@@ -89,7 +91,7 @@
 	        left: 0;
 	        width: 540px;
 	        height: 446px;
-	        background-color: rgba(129, 53, 177, 0.5);
+	        background-color: rgba(91, 21, 134, 0.616);
 	    }
 	    
 	    .uppercase {
